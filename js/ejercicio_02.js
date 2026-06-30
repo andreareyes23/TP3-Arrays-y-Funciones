@@ -20,8 +20,6 @@ const showCities = () => {
     listCities += `<li class="list-group-item"> ${cities[i]}</li>`;
   }
   listCities += "</ul>";
-
-  console.log(listCities);
   screenOut.innerHTML += listCities;
 };
 
@@ -49,7 +47,6 @@ const screenOut = document.getElementById("screenOut");
 screenOut.innerHTML += '<h1 class= "mt-4">Arreglo de ciudades</h1>'
 screenOut.innerHTML += '<h3 class= "mt-4">Punto 1</h3>'
 screenOut.innerHTML += `<p class='mt-4'>El arreglo de ciudades tiene: ${cities.length} elementos</p>`;
-// showCities();
 screenOut.innerHTML += '<h3 class= "mt-4">Punto 2</h3>'
 traverseVector();
 screenOut.innerHTML += '<h2 class= "mt-4">Punto 3</h2>'
